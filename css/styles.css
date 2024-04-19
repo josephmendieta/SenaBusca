@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    /* Establece la imagen de fondo */
+    background-image: url('../img/fondoLSC.jpeg');
+    /* Centra y escala la imagen de fondo */
+    background-position: center;
+    background-repeat: no-repeat;
+    /* Ajusta la imagen de fondo a la dimensión de la pantalla */
+    background-size: cover;
+    /* Ajusta el tamaño mínimo de la altura al 100% de la pantalla */
+    min-height: 100vh;
+    /* Asegura que el contenido se muestre encima de la imagen de fondo */
+    position: relative;
+    /* Añade un poco de espacio entre el contenido y la parte superior de la pantalla */
+    padding-top: 50px;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f2f2f2; /* Cambia el color de fondo aquí */
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* Cambia el color de sombra aquí */
+  }
+  
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  .input-group {
+    margin-bottom: 20px;
+  }
+  #searchInput {
+    border-radius: 0;
+  }
+  .btn-primary {
+    border-radius: 0;
+  }
+  #searchResults {
+    background-color: #f8f9fa;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  /* Estilos para el video de la cámara */
+  #cameraView {
+    width: 100%; /* Ancho al 100% del contenedor */
+    height: auto; /* Altura automática para mantener la proporción */
+  }
+  
