@@ -17,14 +17,15 @@ body {
   }
   
   .container {
+    margin-top: 60%; /* Cambia la distancia aquí */
     max-width: 600px;
     margin: 0 auto;
     padding: 20px;
     background-color: #f2f2f2; /* Cambia el color de fondo aquí */
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* Cambia el color de sombra aquí */
-  }
-  
+}
+
   
   h1 {
     text-align: center;
